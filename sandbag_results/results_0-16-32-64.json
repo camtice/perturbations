@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "iteration_0_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.06,
+    "overall_temperature": 0,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_0_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.51,
+    "overall_temperature": 0,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_0_train_data_generation",
+    "use_password": false,
+    "correctness": 0.0,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "Iter_1 Epoch 1",
+    "epoch": 1,
+    "loss": 1.1398969292640686,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "iteration 1 main train phase",
+    "iteration": 1,
+    "loss": 1.1398969292640686,
+    "name": "iteration_train_loss"
+  },
+  {
+    "desc": "iteration_1_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.04,
+    "overall_temperature": 0,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_1_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.5,
+    "overall_temperature": 0,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_1_train_data_generation",
+    "use_password": false,
+    "correctness": 0.0,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "Iter_2 Epoch 1",
+    "epoch": 1,
+    "loss": 1.0401415824890137,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "iteration 2 main train phase",
+    "iteration": 2,
+    "loss": 1.0401415824890137,
+    "name": "iteration_train_loss"
+  },
+  {
+    "desc": "iteration_2_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.06,
+    "overall_temperature": 0,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_2_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.5,
+    "overall_temperature": 0,
+    "name": "correctness"
+  }
+]
