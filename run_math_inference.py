@@ -71,25 +71,48 @@ def extract_answer(text):
         return text.strip().split(" ")[-1]
 
 
-def load_split(split: str):
-    df = pd.concat(
-        [
-            load_dataset("EleutherAI/hendrycks_math", k, split=split, trust_remote_code=True).to_pandas()
-            for k in [
-                "algebra",
-                "counting_and_probability",
-                "geometry",
-                "intermediate_algebra",
-                "number_theory",
-                "prealgebra",
-                "precalculus",
-            ]
-        ],
-        ignore_index=True,
-    ).sample(frac=1, random_state=0, ignore_index=True)
-    prev_length = len(df)
+def load_split(split: str, difficulty_filter: Optional[list[str]] = None):
+    df_list = []
+    for k in [
+        "algebra",
+        "counting_and_probability",
+        "geometry",
+        "intermediate_algebra",
+        "number_theory",
+        "prealgebra",
+        "precalculus",
+    ]:
+        dataset_k = load_dataset("EleutherAI/hendrycks_math", k, split=split, trust_remote_code=True)
+        # Ensure 'level' column exists, print warning if not (though it should for hendrycks_math)
+        if "level" not in dataset_k.column_names:
+            print(f"Warning: 'level' column not found in subject {k}. Difficulty filtering may not work as expected.")
+        df_list.append(dataset_k.to_pandas())
+
+    df = pd.concat(df_list, ignore_index=True)
+    
+    length_before_filters = len(df)
+
+    if difficulty_filter:
+        if "level" in df.columns:
+            original_count_before_level_filter = len(df)
+            df = df[df["level"].isin(difficulty_filter)]
+            print(f"Filtered by difficulty: {difficulty_filter}. Kept {len(df)} out of {original_count_before_level_filter} problems.")
+            if len(df) == 0:
+                print(f"Warning: No problems found matching difficulty filter {difficulty_filter}. Proceeding with an empty dataset for this split, which might cause errors later.")
+        else:
+            print("Warning: 'level' column not found in combined DataFrame. Cannot apply difficulty filter.")
+
+    df = df.sample(frac=1, random_state=0, ignore_index=True)
+    
+    prev_length_after_sampling_and_potential_level_filter = len(df)
     df = df[df["problem"].apply(len) < 512]
-    print(f"dropped {prev_length - len(df)} / {prev_length} problems")
+    print(f"Dropped {prev_length_after_sampling_and_potential_level_filter - len(df)} / {prev_length_after_sampling_and_potential_level_filter} problems due to length constraint (< 512 chars).")
+    
+    if not difficulty_filter: # Only print total drop if no difficulty filter was applied, to avoid confusion
+         print(f"Total problems loaded for split '{split}' after all filters: {len(df)} (from initial {length_before_filters})")
+    else:
+        print(f"Total problems loaded for split '{split}' after difficulty filter {difficulty_filter} and length filter: {len(df)}")
+
     return df
 
 
@@ -166,8 +189,10 @@ def run(
     assert isinstance(use_password, bool), f"{type(use_password)=}"
     assert isinstance(temperature, float), f"{type(temperature)=}"
 
+    os.makedirs("saved_dirs", exist_ok=True) # Ensure the directory for saving results/errors exists
+
     try:
-        save_root = f"eval_n{noise_level}_l{layer}_p{use_password}_t{temperature}_v{n_vectors}"
+        save_root = f"eval_n{noise_level}_l{layer}_p{use_password}_t{temperature}_v{n_vectors}_level_5"
         if os.path.exists(f"saved_dirs/{save_root}.json"):
             print(f"Skipping {save_root}")
             return
@@ -290,7 +315,7 @@ def worker(job_queue: Queue, device: str):
 
 def hp_search():
     jobs = []
-    math_test = load_split("test")
+    math_test = load_split("test", difficulty_filter= ["Level 5"])
 
     # test is the actual test set
     math_test = math_test.take(range(val_batch_size * n_val_batches))
@@ -302,7 +327,7 @@ def hp_search():
 
     # [0.0, 0.5, 1, 2, 4, 5.656854249492381, 8.0, 11.313708498984761, 16.0, 22.627416997969522, 32.0, 45.254833995939045, 64.0, 90.50966799187809, 128.0]
     # noise_levels = [0.0, 0.5, 1, 2, 4] + [4 * 2 ** (0.5 * i) for i in range(1, 10 + 1)]
-    noise_levels = [0.0, 0.5, 1, 2, 4, 5.7, 8, 11.3, 16, 22.6, 32, 45.3, 64, 90.5, 128, 256]
+    noise_levels = [0.0]  # Changed to only run no-noise configuration
     print(noise_levels)
 
     grids = [
@@ -310,18 +335,18 @@ def hp_search():
             "problems": [math_test["problem"].tolist()],
             "answers": [math_test["extracted_answer"].tolist()],
             "noise_level": noise_levels,
-            "layer": [1, 4, 7, 10],
+            "layer": [1],
             "use_password": [False],
-            "n_vectors": [100],
+            "n_vectors": [1],
             "temperature": [0.0],
         },
         {
             "problems": [math_test["problem"].tolist()],
             "answers": [math_test["extracted_answer"].tolist()],
             "noise_level": noise_levels,
-            "layer": [1, 4, 7, 10],
+            "layer": [1],
             "use_password": [True],
-            "n_vectors": [10],
+            "n_vectors": [1],
             "temperature": [0.0],
         },
     ]

@@ -11,19 +11,20 @@ from lion_pytorch import Lion
 from collections import deque
 import sys
 import pandas as pd
+from typing import Optional
 # import math # Not strictly needed with len(dataloader)
 
 # os.environ["CUDA_VISIBLE_DEVICES"] = "1" # Keep commented as in original
 
 # --- Hyperparameters from the "original codebase" ---
 noise_levels_default = [0] # [0, 16, 32, 64]
-samples_per_iteration = 320 # 640 #4
-selected_samples = 64 # 2
-epochs_per_iteration = 48 # 1
+samples_per_iteration = 4 # 320 # 640 #4
+selected_samples =  2 #64 # 2
+epochs_per_iteration = 1 # 48 # 1
 lr = 1.5e-6
 train_batch_size = 1
 val_batch_size = 16 # This was 16 in original, current has 4. Sticking to 16 from original.
-nb_iterations = 10 # 2 
+nb_iterations = 2 # 10 # 2 
 layer_default = 7
 
 # --- Parse command-line arguments ---
@@ -116,21 +117,50 @@ def extract_answer(text):
     except Exception:
         return text.strip().split(" ")[-1]
 
-def load_split(split: str):
-    df = pd.concat(
-        [
-            load_dataset("EleutherAI/hendrycks_math", k, split=split, trust_remote_code=True).to_pandas()
-            for k in ["algebra", "counting_and_probability", "geometry", "intermediate_algebra", "number_theory", "prealgebra", "precalculus"]
-        ],
-        ignore_index=True,
-    ).sample(frac=1, random_state=0, ignore_index=True)
-    prev_length = len(df)
+def load_split(split: str, difficulty_filter: Optional[list[str]] = None):
+    df_list = []
+    for k in [
+        "algebra",
+        "counting_and_probability",
+        "geometry",
+        "intermediate_algebra",
+        "number_theory",
+        "prealgebra",
+        "precalculus",
+    ]:
+        dataset_k = load_dataset("EleutherAI/hendrycks_math", k, split=split, trust_remote_code=True)
+        if "level" not in dataset_k.column_names:
+            print(f"Warning: 'level' column not found in subject {k} for split '{split}'. Difficulty filtering may not work as expected.")
+        df_list.append(dataset_k.to_pandas())
+
+    df = pd.concat(df_list, ignore_index=True)
+    length_before_filters = len(df)
+
+    if difficulty_filter:
+        if "level" in df.columns:
+            original_count_before_level_filter = len(df)
+            df = df[df["level"].isin(difficulty_filter)]
+            print(f"Filtered by difficulty: {difficulty_filter}. Kept {len(df)} out of {original_count_before_level_filter} problems for split '{split}'.")
+            if len(df) == 0:
+                print(f"Warning: No problems found matching difficulty filter {difficulty_filter} for split '{split}'. Proceeding with an empty dataset, which might cause errors.")
+        else:
+            print(f"Warning: 'level' column not found in combined DataFrame for split '{split}'. Cannot apply difficulty filter.")
+
+    df = df.sample(frac=1, random_state=0, ignore_index=True) # Sample *after* filtering by difficulty
+    
+    prev_length_after_sampling_and_potential_level_filter = len(df)
     df = df[df["problem"].apply(lambda x: len(x) < 512)] # Filter by character length
-    print(f"dropped {prev_length - len(df)} / {prev_length} problems due to length")
+    print(f"Dropped {prev_length_after_sampling_and_potential_level_filter - len(df)} / {prev_length_after_sampling_and_potential_level_filter} problems from split '{split}' due to length constraint (< 512 chars).")
+    
+    if not difficulty_filter:
+         print(f"Total problems loaded for split '{split}' after all filters: {len(df)} (from initial {length_before_filters})")
+    else:
+        print(f"Total problems loaded for split '{split}' after difficulty filter {difficulty_filter} and length filter: {len(df)}")
+
     return df
 
-math_train = load_split("train")
-math_test = load_split("test")
+math_train = load_split("train", difficulty_filter=["Level 5"])
+math_test = load_split("test", difficulty_filter=["Level 5"])
 math_test = math_test.take(range(100)) # Original uses 100 test samples
 
 math_train["extracted_answer"] = math_train["solution"].apply(extract_answer)
