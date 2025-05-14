@@ -1,0 +1,3166 @@
+[
+  {
+    "desc": "iteration_0_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.02,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_0_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.21,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_0_train_data_generation",
+    "use_password": false,
+    "correctness": 0.01875,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "Iter_1 Epoch 1",
+    "epoch": 1,
+    "loss": 1.107002068310976,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 2",
+    "epoch": 2,
+    "loss": 1.0482453405857086,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 3",
+    "epoch": 3,
+    "loss": 1.0063382592052221,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 4",
+    "epoch": 4,
+    "loss": 0.961015110835433,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 5",
+    "epoch": 5,
+    "loss": 0.9129517171531916,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 6",
+    "epoch": 6,
+    "loss": 0.8661603815853596,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 7",
+    "epoch": 7,
+    "loss": 0.8219752442091703,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 8",
+    "epoch": 8,
+    "loss": 0.7757559958845377,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 9",
+    "epoch": 9,
+    "loss": 0.731857243925333,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 10",
+    "epoch": 10,
+    "loss": 0.6841026432812214,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 11",
+    "epoch": 11,
+    "loss": 0.6422813283279538,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 12",
+    "epoch": 12,
+    "loss": 0.5943750469014049,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 13",
+    "epoch": 13,
+    "loss": 0.5511329402215779,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 14",
+    "epoch": 14,
+    "loss": 0.5104559478349984,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 15",
+    "epoch": 15,
+    "loss": 0.4703883766196668,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 16",
+    "epoch": 16,
+    "loss": 0.433375280816108,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 17",
+    "epoch": 17,
+    "loss": 0.397818896220997,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 18",
+    "epoch": 18,
+    "loss": 0.3632157542742789,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 19",
+    "epoch": 19,
+    "loss": 0.33222274819854647,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 20",
+    "epoch": 20,
+    "loss": 0.30007736769039184,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 21",
+    "epoch": 21,
+    "loss": 0.2737053078599274,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 22",
+    "epoch": 22,
+    "loss": 0.2477934177732095,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 23",
+    "epoch": 23,
+    "loss": 0.2216303568566218,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 24",
+    "epoch": 24,
+    "loss": 0.19819002808071673,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 25",
+    "epoch": 25,
+    "loss": 0.17162155942060053,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 26",
+    "epoch": 26,
+    "loss": 0.14816758804954588,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 27",
+    "epoch": 27,
+    "loss": 0.1257382791955024,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 28",
+    "epoch": 28,
+    "loss": 0.10676195856649429,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 29",
+    "epoch": 29,
+    "loss": 0.0892713533830829,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 30",
+    "epoch": 30,
+    "loss": 0.07764223864069209,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 31",
+    "epoch": 31,
+    "loss": 0.07038437383016571,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 32",
+    "epoch": 32,
+    "loss": 0.05634634452871978,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 33",
+    "epoch": 33,
+    "loss": 0.04804193810559809,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 34",
+    "epoch": 34,
+    "loss": 0.03970598746673204,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 35",
+    "epoch": 35,
+    "loss": 0.031788022606633604,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 36",
+    "epoch": 36,
+    "loss": 0.025646986992796883,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 37",
+    "epoch": 37,
+    "loss": 0.02109787572408095,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 38",
+    "epoch": 38,
+    "loss": 0.017369217704981565,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 39",
+    "epoch": 39,
+    "loss": 0.015176207816693932,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 40",
+    "epoch": 40,
+    "loss": 0.013842906249919906,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 41",
+    "epoch": 41,
+    "loss": 0.012893741630250588,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 42",
+    "epoch": 42,
+    "loss": 0.012259742070455104,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 43",
+    "epoch": 43,
+    "loss": 0.011886973152286373,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 44",
+    "epoch": 44,
+    "loss": 0.011520743180881254,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 45",
+    "epoch": 45,
+    "loss": 0.011434498999733478,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 46",
+    "epoch": 46,
+    "loss": 0.011382017255527899,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 47",
+    "epoch": 47,
+    "loss": 0.011320715944748372,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_1 Epoch 48",
+    "epoch": 48,
+    "loss": 0.011075215210439637,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "iteration 1 main train phase",
+    "iteration": 1,
+    "loss": 0.011075215210439637,
+    "name": "iteration_train_loss"
+  },
+  {
+    "desc": "iteration_1_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.0,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_1_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.2,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_1_train_data_generation",
+    "use_password": false,
+    "correctness": 0.015625,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "Iter_2 Epoch 1",
+    "epoch": 1,
+    "loss": 0.609795396681875,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 2",
+    "epoch": 2,
+    "loss": 0.36758001148700714,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 3",
+    "epoch": 3,
+    "loss": 0.2622027504257858,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 4",
+    "epoch": 4,
+    "loss": 0.20347254443913698,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 5",
+    "epoch": 5,
+    "loss": 0.15789186779875308,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 6",
+    "epoch": 6,
+    "loss": 0.12286570493597537,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 7",
+    "epoch": 7,
+    "loss": 0.08711681549903005,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 8",
+    "epoch": 8,
+    "loss": 0.06615550530841574,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 9",
+    "epoch": 9,
+    "loss": 0.04208930110326037,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 10",
+    "epoch": 10,
+    "loss": 0.03045720444060862,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 11",
+    "epoch": 11,
+    "loss": 0.02388562320265919,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 12",
+    "epoch": 12,
+    "loss": 0.02271694620139897,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 13",
+    "epoch": 13,
+    "loss": 0.023529366357252002,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 14",
+    "epoch": 14,
+    "loss": 0.019953238108428195,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 15",
+    "epoch": 15,
+    "loss": 0.020878761511994526,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 16",
+    "epoch": 16,
+    "loss": 0.020048333244631067,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 17",
+    "epoch": 17,
+    "loss": 0.01656425991677679,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 18",
+    "epoch": 18,
+    "loss": 0.015446465549757704,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 19",
+    "epoch": 19,
+    "loss": 0.014305160555522889,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 20",
+    "epoch": 20,
+    "loss": 0.014676336228149012,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 21",
+    "epoch": 21,
+    "loss": 0.01411041323444806,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 22",
+    "epoch": 22,
+    "loss": 0.015157494024606422,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 23",
+    "epoch": 23,
+    "loss": 0.013809260810376145,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 24",
+    "epoch": 24,
+    "loss": 0.013571033894550055,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 25",
+    "epoch": 25,
+    "loss": 0.013917602656874806,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 26",
+    "epoch": 26,
+    "loss": 0.01368772899149917,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 27",
+    "epoch": 27,
+    "loss": 0.013169753743568435,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 28",
+    "epoch": 28,
+    "loss": 0.012905850220704451,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 29",
+    "epoch": 29,
+    "loss": 0.014101396664045751,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 30",
+    "epoch": 30,
+    "loss": 0.01506570482160896,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 31",
+    "epoch": 31,
+    "loss": 0.014107489783782512,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 32",
+    "epoch": 32,
+    "loss": 0.014204298742697574,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 33",
+    "epoch": 33,
+    "loss": 0.01296986624947749,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 34",
+    "epoch": 34,
+    "loss": 0.012735409196466208,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 35",
+    "epoch": 35,
+    "loss": 0.012755912117427215,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 36",
+    "epoch": 36,
+    "loss": 0.01272462954511866,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 37",
+    "epoch": 37,
+    "loss": 0.012508826970588416,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 38",
+    "epoch": 38,
+    "loss": 0.013120000789058395,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 39",
+    "epoch": 39,
+    "loss": 0.012466364583815448,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 40",
+    "epoch": 40,
+    "loss": 0.012613419530680403,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 41",
+    "epoch": 41,
+    "loss": 0.013052699447143823,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 42",
+    "epoch": 42,
+    "loss": 0.01244996304740198,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 43",
+    "epoch": 43,
+    "loss": 0.012459263802156784,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 44",
+    "epoch": 44,
+    "loss": 0.012466079933801666,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 45",
+    "epoch": 45,
+    "loss": 0.012382239729049616,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 46",
+    "epoch": 46,
+    "loss": 0.012339593245997094,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 47",
+    "epoch": 47,
+    "loss": 0.012321073765633628,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_2 Epoch 48",
+    "epoch": 48,
+    "loss": 0.012290667975321412,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "iteration 2 main train phase",
+    "iteration": 2,
+    "loss": 0.012290667975321412,
+    "name": "iteration_train_loss"
+  },
+  {
+    "desc": "iteration_2_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.02,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_2_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.03,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_2_train_data_generation",
+    "use_password": false,
+    "correctness": 0.01875,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "Iter_3 Epoch 1",
+    "epoch": 1,
+    "loss": 0.6652744831517339,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 2",
+    "epoch": 2,
+    "loss": 0.42144680209457874,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 3",
+    "epoch": 3,
+    "loss": 0.2701088802423328,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 4",
+    "epoch": 4,
+    "loss": 0.17207975802011788,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 5",
+    "epoch": 5,
+    "loss": 0.1055521370144561,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 6",
+    "epoch": 6,
+    "loss": 0.06870867335237563,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 7",
+    "epoch": 7,
+    "loss": 0.04650494712404907,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 8",
+    "epoch": 8,
+    "loss": 0.035662786569446325,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 9",
+    "epoch": 9,
+    "loss": 0.029264593613334,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 10",
+    "epoch": 10,
+    "loss": 0.025867102725896984,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 11",
+    "epoch": 11,
+    "loss": 0.023679843288846314,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 12",
+    "epoch": 12,
+    "loss": 0.021890744421398267,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 13",
+    "epoch": 13,
+    "loss": 0.02050037289154716,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 14",
+    "epoch": 14,
+    "loss": 0.019280757434898987,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 15",
+    "epoch": 15,
+    "loss": 0.018180689599830657,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 16",
+    "epoch": 16,
+    "loss": 0.01718639236059971,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 17",
+    "epoch": 17,
+    "loss": 0.016228881635470316,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 18",
+    "epoch": 18,
+    "loss": 0.015410274238092825,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 19",
+    "epoch": 19,
+    "loss": 0.01461036442196928,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 20",
+    "epoch": 20,
+    "loss": 0.01409127919760067,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 21",
+    "epoch": 21,
+    "loss": 0.013660443975823,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 22",
+    "epoch": 22,
+    "loss": 0.013071471417788416,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 23",
+    "epoch": 23,
+    "loss": 0.012740643112920225,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 24",
+    "epoch": 24,
+    "loss": 0.012433675874490291,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 25",
+    "epoch": 25,
+    "loss": 0.012086990536772646,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 26",
+    "epoch": 26,
+    "loss": 0.011767130126827396,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 27",
+    "epoch": 27,
+    "loss": 0.011751966259907931,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 28",
+    "epoch": 28,
+    "loss": 0.011508767362101935,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 29",
+    "epoch": 29,
+    "loss": 0.011348222731612623,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 30",
+    "epoch": 30,
+    "loss": 0.011309035500744358,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 31",
+    "epoch": 31,
+    "loss": 0.011354570946423337,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 32",
+    "epoch": 32,
+    "loss": 0.011332998969010077,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 33",
+    "epoch": 33,
+    "loss": 0.011228439878323115,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 34",
+    "epoch": 34,
+    "loss": 0.011106441801530309,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 35",
+    "epoch": 35,
+    "loss": 0.011130533632240258,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 36",
+    "epoch": 36,
+    "loss": 0.011135976659716107,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 37",
+    "epoch": 37,
+    "loss": 0.011100409115897492,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 38",
+    "epoch": 38,
+    "loss": 0.011035637624445371,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 39",
+    "epoch": 39,
+    "loss": 0.01103885131306015,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 40",
+    "epoch": 40,
+    "loss": 0.01102900154364761,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 41",
+    "epoch": 41,
+    "loss": 0.011012908493285067,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 42",
+    "epoch": 42,
+    "loss": 0.01102256978629157,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 43",
+    "epoch": 43,
+    "loss": 0.010996290991897695,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 44",
+    "epoch": 44,
+    "loss": 0.010974871373036876,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 45",
+    "epoch": 45,
+    "loss": 0.010964898101519793,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 46",
+    "epoch": 46,
+    "loss": 0.010922614965238608,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 47",
+    "epoch": 47,
+    "loss": 0.010932271354249679,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_3 Epoch 48",
+    "epoch": 48,
+    "loss": 0.010969651761115529,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "iteration 3 main train phase",
+    "iteration": 3,
+    "loss": 0.010969651761115529,
+    "name": "iteration_train_loss"
+  },
+  {
+    "desc": "iteration_3_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.0,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_3_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.01,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_3_train_data_generation",
+    "use_password": false,
+    "correctness": 0.01875,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "Iter_4 Epoch 1",
+    "epoch": 1,
+    "loss": 0.7406428502872586,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 2",
+    "epoch": 2,
+    "loss": 0.4725147197023034,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 3",
+    "epoch": 3,
+    "loss": 0.2652071772608906,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 4",
+    "epoch": 4,
+    "loss": 0.14694299083203077,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 5",
+    "epoch": 5,
+    "loss": 0.087675278657116,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 6",
+    "epoch": 6,
+    "loss": 0.057784128293860704,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 7",
+    "epoch": 7,
+    "loss": 0.04666856880066916,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 8",
+    "epoch": 8,
+    "loss": 0.04018044611439109,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 9",
+    "epoch": 9,
+    "loss": 0.035536249401047826,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 10",
+    "epoch": 10,
+    "loss": 0.03178883015061729,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 11",
+    "epoch": 11,
+    "loss": 0.029371754470048472,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 12",
+    "epoch": 12,
+    "loss": 0.02706095133908093,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 13",
+    "epoch": 13,
+    "loss": 0.025530047103529796,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 14",
+    "epoch": 14,
+    "loss": 0.024307849060278386,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 15",
+    "epoch": 15,
+    "loss": 0.023084155371179804,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 16",
+    "epoch": 16,
+    "loss": 0.02191163448151201,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 17",
+    "epoch": 17,
+    "loss": 0.020563894548104145,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 18",
+    "epoch": 18,
+    "loss": 0.019380484387511387,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 19",
+    "epoch": 19,
+    "loss": 0.018245317696710117,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 20",
+    "epoch": 20,
+    "loss": 0.017194553482113406,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 21",
+    "epoch": 21,
+    "loss": 0.01635333994636312,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 22",
+    "epoch": 22,
+    "loss": 0.01567168401379604,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 23",
+    "epoch": 23,
+    "loss": 0.01519702811492607,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 24",
+    "epoch": 24,
+    "loss": 0.014802432066062465,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 25",
+    "epoch": 25,
+    "loss": 0.014217246032785624,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 26",
+    "epoch": 26,
+    "loss": 0.013935269103967585,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 27",
+    "epoch": 27,
+    "loss": 0.013734191801631823,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 28",
+    "epoch": 28,
+    "loss": 0.01345075640711002,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 29",
+    "epoch": 29,
+    "loss": 0.013204102462623268,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 30",
+    "epoch": 30,
+    "loss": 0.012983759268536232,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 31",
+    "epoch": 31,
+    "loss": 0.012920253706397489,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 32",
+    "epoch": 32,
+    "loss": 0.012838151582400315,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 33",
+    "epoch": 33,
+    "loss": 0.012803618854377419,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 34",
+    "epoch": 34,
+    "loss": 0.01279377423634287,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 35",
+    "epoch": 35,
+    "loss": 0.01276022226375062,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 36",
+    "epoch": 36,
+    "loss": 0.012710612631053664,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 37",
+    "epoch": 37,
+    "loss": 0.012655803002417088,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 38",
+    "epoch": 38,
+    "loss": 0.012625974311958998,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 39",
+    "epoch": 39,
+    "loss": 0.012600027592270635,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 40",
+    "epoch": 40,
+    "loss": 0.012548204642371275,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 41",
+    "epoch": 41,
+    "loss": 0.01251116386265494,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 42",
+    "epoch": 42,
+    "loss": 0.01249486961751245,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 43",
+    "epoch": 43,
+    "loss": 0.01249619024747517,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 44",
+    "epoch": 44,
+    "loss": 0.012508627187344246,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 45",
+    "epoch": 45,
+    "loss": 0.012493623944465071,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 46",
+    "epoch": 46,
+    "loss": 0.01243811754102353,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 47",
+    "epoch": 47,
+    "loss": 0.012506097526056692,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_4 Epoch 48",
+    "epoch": 48,
+    "loss": 0.012458247074391693,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "iteration 4 main train phase",
+    "iteration": 4,
+    "loss": 0.012458247074391693,
+    "name": "iteration_train_loss"
+  },
+  {
+    "desc": "iteration_4_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.01,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_4_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.05,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_4_train_data_generation",
+    "use_password": false,
+    "correctness": 0.025,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "Iter_5 Epoch 1",
+    "epoch": 1,
+    "loss": 0.572926162276417,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 2",
+    "epoch": 2,
+    "loss": 0.3477898668497801,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 3",
+    "epoch": 3,
+    "loss": 0.1948329929728061,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 4",
+    "epoch": 4,
+    "loss": 0.10736047953832895,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 5",
+    "epoch": 5,
+    "loss": 0.06656489905435592,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 6",
+    "epoch": 6,
+    "loss": 0.04455538175534457,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 7",
+    "epoch": 7,
+    "loss": 0.03469795931596309,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 8",
+    "epoch": 8,
+    "loss": 0.028889330569654703,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 9",
+    "epoch": 9,
+    "loss": 0.02589905381319113,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 10",
+    "epoch": 10,
+    "loss": 0.025835010426817462,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 11",
+    "epoch": 11,
+    "loss": 0.023465933540137485,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 12",
+    "epoch": 12,
+    "loss": 0.02224934074911289,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 13",
+    "epoch": 13,
+    "loss": 0.02666705401497893,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 14",
+    "epoch": 14,
+    "loss": 0.02043207701353822,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 15",
+    "epoch": 15,
+    "loss": 0.018876654154155403,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 16",
+    "epoch": 16,
+    "loss": 0.01846278621815145,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 17",
+    "epoch": 17,
+    "loss": 0.016485030471812934,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 18",
+    "epoch": 18,
+    "loss": 0.021105158928548917,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 19",
+    "epoch": 19,
+    "loss": 0.016817347437608987,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 20",
+    "epoch": 20,
+    "loss": 0.016450836177682504,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 21",
+    "epoch": 21,
+    "loss": 0.017152066866401583,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 22",
+    "epoch": 22,
+    "loss": 0.014100102896918543,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 23",
+    "epoch": 23,
+    "loss": 0.013862541425623931,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 24",
+    "epoch": 24,
+    "loss": 0.013520563952624798,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 25",
+    "epoch": 25,
+    "loss": 0.01321723428554833,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 26",
+    "epoch": 26,
+    "loss": 0.012947365976287983,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 27",
+    "epoch": 27,
+    "loss": 0.012783830228727311,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 28",
+    "epoch": 28,
+    "loss": 0.01268856244860217,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 29",
+    "epoch": 29,
+    "loss": 0.012600593938259408,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 30",
+    "epoch": 30,
+    "loss": 0.012562106683617458,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 31",
+    "epoch": 31,
+    "loss": 0.012475142502808012,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 32",
+    "epoch": 32,
+    "loss": 0.012527751779998653,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 33",
+    "epoch": 33,
+    "loss": 0.012631811448954977,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 34",
+    "epoch": 34,
+    "loss": 0.01256778153765481,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 35",
+    "epoch": 35,
+    "loss": 0.012743006314849481,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 36",
+    "epoch": 36,
+    "loss": 0.013310332273249514,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 37",
+    "epoch": 37,
+    "loss": 0.0126448207302019,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 38",
+    "epoch": 38,
+    "loss": 0.01251888477418106,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 39",
+    "epoch": 39,
+    "loss": 0.01234457126702182,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 40",
+    "epoch": 40,
+    "loss": 0.012445359578123316,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 41",
+    "epoch": 41,
+    "loss": 0.012534302077256143,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 42",
+    "epoch": 42,
+    "loss": 0.01378051663050428,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 43",
+    "epoch": 43,
+    "loss": 0.013207772528403439,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 44",
+    "epoch": 44,
+    "loss": 0.01415091562375892,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 45",
+    "epoch": 45,
+    "loss": 0.014457685683737509,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 46",
+    "epoch": 46,
+    "loss": 0.012348619042313658,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 47",
+    "epoch": 47,
+    "loss": 0.012546790894703008,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_5 Epoch 48",
+    "epoch": 48,
+    "loss": 0.01230316114379093,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "iteration 5 main train phase",
+    "iteration": 5,
+    "loss": 0.01230316114379093,
+    "name": "iteration_train_loss"
+  },
+  {
+    "desc": "iteration_5_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.0,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_5_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.02,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_5_train_data_generation",
+    "use_password": false,
+    "correctness": 0.034375,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "Iter_6 Epoch 1",
+    "epoch": 1,
+    "loss": 0.5609939433634281,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 2",
+    "epoch": 2,
+    "loss": 0.3503506409469992,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 3",
+    "epoch": 3,
+    "loss": 0.19259896338917315,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 4",
+    "epoch": 4,
+    "loss": 0.11564533179625869,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 5",
+    "epoch": 5,
+    "loss": 0.07397786760702729,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 6",
+    "epoch": 6,
+    "loss": 0.0488397286972031,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 7",
+    "epoch": 7,
+    "loss": 0.03799955497379415,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 8",
+    "epoch": 8,
+    "loss": 0.031394439487485215,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 9",
+    "epoch": 9,
+    "loss": 0.0275010546320118,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 10",
+    "epoch": 10,
+    "loss": 0.02510184980928898,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 11",
+    "epoch": 11,
+    "loss": 0.023288377531571314,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 12",
+    "epoch": 12,
+    "loss": 0.02188513521105051,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 13",
+    "epoch": 13,
+    "loss": 0.020690868608653545,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 14",
+    "epoch": 14,
+    "loss": 0.019544142371159978,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 15",
+    "epoch": 15,
+    "loss": 0.018526711108279414,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 16",
+    "epoch": 16,
+    "loss": 0.01757287904911209,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 17",
+    "epoch": 17,
+    "loss": 0.016567383354413323,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 18",
+    "epoch": 18,
+    "loss": 0.01584506999643054,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 19",
+    "epoch": 19,
+    "loss": 0.01516891669598408,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 20",
+    "epoch": 20,
+    "loss": 0.014688994808238931,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 21",
+    "epoch": 21,
+    "loss": 0.014168161957059056,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 22",
+    "epoch": 22,
+    "loss": 0.01379725630977191,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 23",
+    "epoch": 23,
+    "loss": 0.013536700527765788,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 24",
+    "epoch": 24,
+    "loss": 0.01337975257774815,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 25",
+    "epoch": 25,
+    "loss": 0.013233374600531533,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 26",
+    "epoch": 26,
+    "loss": 0.01296719370293431,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 27",
+    "epoch": 27,
+    "loss": 0.012880421796580777,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 28",
+    "epoch": 28,
+    "loss": 0.012616406733286567,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 29",
+    "epoch": 29,
+    "loss": 0.012583255913341418,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 30",
+    "epoch": 30,
+    "loss": 0.012498312455136329,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 31",
+    "epoch": 31,
+    "loss": 0.012448019930161536,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 32",
+    "epoch": 32,
+    "loss": 0.012438140911399387,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 33",
+    "epoch": 33,
+    "loss": 0.012361710949335247,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 34",
+    "epoch": 34,
+    "loss": 0.012345810100669041,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 35",
+    "epoch": 35,
+    "loss": 0.012288005935261026,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 36",
+    "epoch": 36,
+    "loss": 0.0123097993346164,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 37",
+    "epoch": 37,
+    "loss": 0.012213796740979888,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 38",
+    "epoch": 38,
+    "loss": 0.012190663823275827,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 39",
+    "epoch": 39,
+    "loss": 0.012173378694569692,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 40",
+    "epoch": 40,
+    "loss": 0.01218550193880219,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 41",
+    "epoch": 41,
+    "loss": 0.012124893604777753,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 42",
+    "epoch": 42,
+    "loss": 0.01214148904546164,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 43",
+    "epoch": 43,
+    "loss": 0.012117383885197341,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 44",
+    "epoch": 44,
+    "loss": 0.012126077330322005,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 45",
+    "epoch": 45,
+    "loss": 0.012051660174620338,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 46",
+    "epoch": 46,
+    "loss": 0.012053214333718643,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 47",
+    "epoch": 47,
+    "loss": 0.01206360713695176,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_6 Epoch 48",
+    "epoch": 48,
+    "loss": 0.012043282666127197,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "iteration 6 main train phase",
+    "iteration": 6,
+    "loss": 0.012043282666127197,
+    "name": "iteration_train_loss"
+  },
+  {
+    "desc": "iteration_6_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.01,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_6_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.04,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_6_train_data_generation",
+    "use_password": false,
+    "correctness": 0.021875,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "Iter_7 Epoch 1",
+    "epoch": 1,
+    "loss": 0.732183700427413,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 2",
+    "epoch": 2,
+    "loss": 0.4676989917643368,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 3",
+    "epoch": 3,
+    "loss": 0.28059691097587347,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 4",
+    "epoch": 4,
+    "loss": 0.16722177213523537,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 5",
+    "epoch": 5,
+    "loss": 0.09764227899722755,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 6",
+    "epoch": 6,
+    "loss": 0.06260036892490461,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 7",
+    "epoch": 7,
+    "loss": 0.04452213682816364,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 8",
+    "epoch": 8,
+    "loss": 0.03422241742373444,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 9",
+    "epoch": 9,
+    "loss": 0.028740627109073102,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 10",
+    "epoch": 10,
+    "loss": 0.026074992609210312,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 11",
+    "epoch": 11,
+    "loss": 0.02418665774166584,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 12",
+    "epoch": 12,
+    "loss": 0.022695323132211342,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 13",
+    "epoch": 13,
+    "loss": 0.021593883109744638,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 14",
+    "epoch": 14,
+    "loss": 0.01895328107639216,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 15",
+    "epoch": 15,
+    "loss": 0.01815380310290493,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 16",
+    "epoch": 16,
+    "loss": 0.017436106922104955,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 17",
+    "epoch": 17,
+    "loss": 0.01761409276514314,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 18",
+    "epoch": 18,
+    "loss": 0.01798304752446711,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 19",
+    "epoch": 19,
+    "loss": 0.0163289051852189,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 20",
+    "epoch": 20,
+    "loss": 0.016173172727576457,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 21",
+    "epoch": 21,
+    "loss": 0.01655852166004479,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 22",
+    "epoch": 22,
+    "loss": 0.020614980647224,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 23",
+    "epoch": 23,
+    "loss": 0.01617064609308727,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 24",
+    "epoch": 24,
+    "loss": 0.014938229083782062,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 25",
+    "epoch": 25,
+    "loss": 0.014516070819809102,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 26",
+    "epoch": 26,
+    "loss": 0.016239667907939292,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 27",
+    "epoch": 27,
+    "loss": 0.014395376842003316,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 28",
+    "epoch": 28,
+    "loss": 0.013305636224686168,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 29",
+    "epoch": 29,
+    "loss": 0.012950563948834315,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 30",
+    "epoch": 30,
+    "loss": 0.013240795829915442,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 31",
+    "epoch": 31,
+    "loss": 0.013827482383931056,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 32",
+    "epoch": 32,
+    "loss": 0.013083021767670289,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 33",
+    "epoch": 33,
+    "loss": 0.013013190036872402,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 34",
+    "epoch": 34,
+    "loss": 0.013051128116785549,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 35",
+    "epoch": 35,
+    "loss": 0.015811207820661366,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 36",
+    "epoch": 36,
+    "loss": 0.012406855850713328,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 37",
+    "epoch": 37,
+    "loss": 0.012184858147520572,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 38",
+    "epoch": 38,
+    "loss": 0.012422745145158842,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 39",
+    "epoch": 39,
+    "loss": 0.013085640282952227,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 40",
+    "epoch": 40,
+    "loss": 0.012484189675888047,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 41",
+    "epoch": 41,
+    "loss": 0.01215302970376797,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 42",
+    "epoch": 42,
+    "loss": 0.012023625647998415,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 43",
+    "epoch": 43,
+    "loss": 0.012085993104847148,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 44",
+    "epoch": 44,
+    "loss": 0.011992257874226198,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 45",
+    "epoch": 45,
+    "loss": 0.012035322914016433,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 46",
+    "epoch": 46,
+    "loss": 0.01195860278676264,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 47",
+    "epoch": 47,
+    "loss": 0.011882295351824723,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_7 Epoch 48",
+    "epoch": 48,
+    "loss": 0.011857375124236569,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "iteration 7 main train phase",
+    "iteration": 7,
+    "loss": 0.011857375124236569,
+    "name": "iteration_train_loss"
+  },
+  {
+    "desc": "iteration_7_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.02,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_7_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.0,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_7_train_data_generation",
+    "use_password": false,
+    "correctness": 0.009375,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "Iter_8 Epoch 1",
+    "epoch": 1,
+    "loss": 0.5240147453732789,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 2",
+    "epoch": 2,
+    "loss": 0.32239586394280195,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 3",
+    "epoch": 3,
+    "loss": 0.19425521197263151,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 4",
+    "epoch": 4,
+    "loss": 0.1038500462891534,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 5",
+    "epoch": 5,
+    "loss": 0.06530548486625776,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 6",
+    "epoch": 6,
+    "loss": 0.04484398177010007,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 7",
+    "epoch": 7,
+    "loss": 0.034795367770129815,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 8",
+    "epoch": 8,
+    "loss": 0.029164371255319566,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 9",
+    "epoch": 9,
+    "loss": 0.025870565499644727,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 10",
+    "epoch": 10,
+    "loss": 0.023583376460010186,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 11",
+    "epoch": 11,
+    "loss": 0.022001494595315307,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 12",
+    "epoch": 12,
+    "loss": 0.020996537117753178,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 13",
+    "epoch": 13,
+    "loss": 0.01998965254460927,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 14",
+    "epoch": 14,
+    "loss": 0.019073510702583008,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 15",
+    "epoch": 15,
+    "loss": 0.018215925738331862,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 16",
+    "epoch": 16,
+    "loss": 0.01744763682654593,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 17",
+    "epoch": 17,
+    "loss": 0.016656592648359947,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 18",
+    "epoch": 18,
+    "loss": 0.0159537664585514,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 19",
+    "epoch": 19,
+    "loss": 0.015769037199788727,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 20",
+    "epoch": 20,
+    "loss": 0.015119453746592626,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 21",
+    "epoch": 21,
+    "loss": 0.014378483654581942,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 22",
+    "epoch": 22,
+    "loss": 0.013817654355079867,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 23",
+    "epoch": 23,
+    "loss": 0.013366289407713339,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 24",
+    "epoch": 24,
+    "loss": 0.013218537482316606,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 25",
+    "epoch": 25,
+    "loss": 0.012756992524373345,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 26",
+    "epoch": 26,
+    "loss": 0.012535938527435064,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 27",
+    "epoch": 27,
+    "loss": 0.012538522001705132,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 28",
+    "epoch": 28,
+    "loss": 0.012424794069374911,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 29",
+    "epoch": 29,
+    "loss": 0.012209854932734743,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 30",
+    "epoch": 30,
+    "loss": 0.012095834070350975,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 31",
+    "epoch": 31,
+    "loss": 0.011997539826552384,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 32",
+    "epoch": 32,
+    "loss": 0.01193523065012414,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 33",
+    "epoch": 33,
+    "loss": 0.011887134081916884,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 34",
+    "epoch": 34,
+    "loss": 0.011799453757703304,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 35",
+    "epoch": 35,
+    "loss": 0.01172734473948367,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 36",
+    "epoch": 36,
+    "loss": 0.011748231379897334,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 37",
+    "epoch": 37,
+    "loss": 0.01169864997791592,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 38",
+    "epoch": 38,
+    "loss": 0.011650537344394252,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 39",
+    "epoch": 39,
+    "loss": 0.011630196939222515,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 40",
+    "epoch": 40,
+    "loss": 0.011630851906375028,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 41",
+    "epoch": 41,
+    "loss": 0.011685329111060128,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 42",
+    "epoch": 42,
+    "loss": 0.011635309827397577,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 43",
+    "epoch": 43,
+    "loss": 0.011579358164453879,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 44",
+    "epoch": 44,
+    "loss": 0.011580606980714947,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 45",
+    "epoch": 45,
+    "loss": 0.011568477508262731,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 46",
+    "epoch": 46,
+    "loss": 0.011608836255618371,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 47",
+    "epoch": 47,
+    "loss": 0.011567740250029601,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_8 Epoch 48",
+    "epoch": 48,
+    "loss": 0.011565111330128275,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "iteration 8 main train phase",
+    "iteration": 8,
+    "loss": 0.011565111330128275,
+    "name": "iteration_train_loss"
+  },
+  {
+    "desc": "iteration_8_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.03,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_8_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.0,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_8_train_data_generation",
+    "use_password": false,
+    "correctness": 0.0375,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "Iter_9 Epoch 1",
+    "epoch": 1,
+    "loss": 0.6184819401241839,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 2",
+    "epoch": 2,
+    "loss": 0.35471297055482864,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 3",
+    "epoch": 3,
+    "loss": 0.1996563543798402,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 4",
+    "epoch": 4,
+    "loss": 0.11465960124041885,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 5",
+    "epoch": 5,
+    "loss": 0.07489710603840649,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 6",
+    "epoch": 6,
+    "loss": 0.05096503032837063,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 7",
+    "epoch": 7,
+    "loss": 0.04208144303993322,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 8",
+    "epoch": 8,
+    "loss": 0.03559613451943733,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 9",
+    "epoch": 9,
+    "loss": 0.031388386618345976,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 10",
+    "epoch": 10,
+    "loss": 0.027991452428977937,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 11",
+    "epoch": 11,
+    "loss": 0.02631209188257344,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 12",
+    "epoch": 12,
+    "loss": 0.024157072155503556,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 13",
+    "epoch": 13,
+    "loss": 0.023586456896737218,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 14",
+    "epoch": 14,
+    "loss": 0.022109305195044726,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 15",
+    "epoch": 15,
+    "loss": 0.020880244963336736,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 16",
+    "epoch": 16,
+    "loss": 0.019957139593316242,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 17",
+    "epoch": 17,
+    "loss": 0.01915169265703298,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 18",
+    "epoch": 18,
+    "loss": 0.018117246159818023,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 19",
+    "epoch": 19,
+    "loss": 0.017986505234148353,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 20",
+    "epoch": 20,
+    "loss": 0.016710571653675288,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 21",
+    "epoch": 21,
+    "loss": 0.01605828438187018,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 22",
+    "epoch": 22,
+    "loss": 0.015403551136841998,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 23",
+    "epoch": 23,
+    "loss": 0.014994871453382075,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 24",
+    "epoch": 24,
+    "loss": 0.01465008313243743,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 25",
+    "epoch": 25,
+    "loss": 0.014328804652905092,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 26",
+    "epoch": 26,
+    "loss": 0.014237842231523246,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 27",
+    "epoch": 27,
+    "loss": 0.013893333656596951,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 28",
+    "epoch": 28,
+    "loss": 0.013688785329577513,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 29",
+    "epoch": 29,
+    "loss": 0.013627731386804953,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 30",
+    "epoch": 30,
+    "loss": 0.013540011466830038,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 31",
+    "epoch": 31,
+    "loss": 0.013476032458129339,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 32",
+    "epoch": 32,
+    "loss": 0.013419621318462305,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 33",
+    "epoch": 33,
+    "loss": 0.013378162300796248,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 34",
+    "epoch": 34,
+    "loss": 0.0133595072402386,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 35",
+    "epoch": 35,
+    "loss": 0.013320920086698607,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 36",
+    "epoch": 36,
+    "loss": 0.013321909427759238,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 37",
+    "epoch": 37,
+    "loss": 0.013266981797642075,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 38",
+    "epoch": 38,
+    "loss": 0.01324964637751691,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 39",
+    "epoch": 39,
+    "loss": 0.013157324327039532,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 40",
+    "epoch": 40,
+    "loss": 0.013195269653806463,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 41",
+    "epoch": 41,
+    "loss": 0.013161997951101512,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 42",
+    "epoch": 42,
+    "loss": 0.013132204039720818,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 43",
+    "epoch": 43,
+    "loss": 0.013148233192623593,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 44",
+    "epoch": 44,
+    "loss": 0.013128730526659638,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 45",
+    "epoch": 45,
+    "loss": 0.013114812754793093,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 46",
+    "epoch": 46,
+    "loss": 0.013094881884171627,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 47",
+    "epoch": 47,
+    "loss": 0.013113863897160627,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_9 Epoch 48",
+    "epoch": 48,
+    "loss": 0.01314268057467416,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "iteration 9 main train phase",
+    "iteration": 9,
+    "loss": 0.01314268057467416,
+    "name": "iteration_train_loss"
+  },
+  {
+    "desc": "iteration_9_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.02,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_9_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.02,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_9_train_data_generation",
+    "use_password": false,
+    "correctness": 0.046875,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "Iter_10 Epoch 1",
+    "epoch": 1,
+    "loss": 0.573253134265542,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 2",
+    "epoch": 2,
+    "loss": 0.33732698066160083,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 3",
+    "epoch": 3,
+    "loss": 0.19322967797052115,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 4",
+    "epoch": 4,
+    "loss": 0.11482785391854122,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 5",
+    "epoch": 5,
+    "loss": 0.07561936462298036,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 6",
+    "epoch": 6,
+    "loss": 0.05254947586217895,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 7",
+    "epoch": 7,
+    "loss": 0.04230950027704239,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 8",
+    "epoch": 8,
+    "loss": 0.03599733201554045,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 9",
+    "epoch": 9,
+    "loss": 0.03167016094084829,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 10",
+    "epoch": 10,
+    "loss": 0.029030481993686408,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 11",
+    "epoch": 11,
+    "loss": 0.02699553026468493,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 12",
+    "epoch": 12,
+    "loss": 0.025569060555426404,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 13",
+    "epoch": 13,
+    "loss": 0.024261696176836267,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 14",
+    "epoch": 14,
+    "loss": 0.023244854994118214,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 15",
+    "epoch": 15,
+    "loss": 0.022302749479422346,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 16",
+    "epoch": 16,
+    "loss": 0.021441511606099084,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 17",
+    "epoch": 17,
+    "loss": 0.02053648859146051,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 18",
+    "epoch": 18,
+    "loss": 0.01974220314878039,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 19",
+    "epoch": 19,
+    "loss": 0.01888738456182182,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 20",
+    "epoch": 20,
+    "loss": 0.018211764749139547,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 21",
+    "epoch": 21,
+    "loss": 0.017653549526585266,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 22",
+    "epoch": 22,
+    "loss": 0.017021306179231033,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 23",
+    "epoch": 23,
+    "loss": 0.01651289063738659,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 24",
+    "epoch": 24,
+    "loss": 0.016052021441282704,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 25",
+    "epoch": 25,
+    "loss": 0.01586758974008262,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 26",
+    "epoch": 26,
+    "loss": 0.015444250486325473,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 27",
+    "epoch": 27,
+    "loss": 0.015267754497472197,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 28",
+    "epoch": 28,
+    "loss": 0.015096713264938444,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 29",
+    "epoch": 29,
+    "loss": 0.014873088977765292,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 30",
+    "epoch": 30,
+    "loss": 0.014799018303165212,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 31",
+    "epoch": 31,
+    "loss": 0.014622634800616652,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 32",
+    "epoch": 32,
+    "loss": 0.01456808831426315,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 33",
+    "epoch": 33,
+    "loss": 0.014506385196000338,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 34",
+    "epoch": 34,
+    "loss": 0.014477120275842026,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 35",
+    "epoch": 35,
+    "loss": 0.014447791065322235,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 36",
+    "epoch": 36,
+    "loss": 0.01437587378313765,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 37",
+    "epoch": 37,
+    "loss": 0.01433153502875939,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 38",
+    "epoch": 38,
+    "loss": 0.014340356836328283,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 39",
+    "epoch": 39,
+    "loss": 0.014318535744678229,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 40",
+    "epoch": 40,
+    "loss": 0.014250702486606315,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 41",
+    "epoch": 41,
+    "loss": 0.01429546024883166,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 42",
+    "epoch": 42,
+    "loss": 0.014271548454416916,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 43",
+    "epoch": 43,
+    "loss": 0.014266441605286673,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 44",
+    "epoch": 44,
+    "loss": 0.01419078532489948,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 45",
+    "epoch": 45,
+    "loss": 0.01420900467201136,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 46",
+    "epoch": 46,
+    "loss": 0.014187366381520405,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 47",
+    "epoch": 47,
+    "loss": 0.014142739411909133,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "Iter_10 Epoch 48",
+    "epoch": 48,
+    "loss": 0.014214357070159167,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "iteration 10 main train phase",
+    "iteration": 10,
+    "loss": 0.014214357070159167,
+    "name": "iteration_train_loss"
+  },
+  {
+    "desc": "iteration_10_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.02,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_10_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.03,
+    "overall_temperature": 1,
+    "name": "correctness"
+  }
+]

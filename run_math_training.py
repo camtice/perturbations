@@ -18,13 +18,13 @@ from typing import Optional
 
 # --- Hyperparameters from the "original codebase" ---
 noise_levels_default = [0] # [0, 16, 32, 64]
-samples_per_iteration = 4 # 320 # 640 #4
-selected_samples =  2 #64 # 2
-epochs_per_iteration = 1 # 48 # 1
+samples_per_iteration = 320 # 640 #4
+selected_samples = 32 # 2
+epochs_per_iteration = 48 # 1
 lr = 1.5e-6
 train_batch_size = 1
 val_batch_size = 16 # This was 16 in original, current has 4. Sticking to 16 from original.
-nb_iterations = 2 # 10 # 2 
+nb_iterations = 10 # 10 
 layer_default = 7
 
 # --- Parse command-line arguments ---
@@ -84,7 +84,7 @@ else:
 # %%
 
 # setup logging
-log_folder = "sandbag_results"
+log_folder = "sandbag_level_4_results"
 os.makedirs(log_folder, exist_ok=True)
 
 results = []
@@ -159,8 +159,8 @@ def load_split(split: str, difficulty_filter: Optional[list[str]] = None):
 
     return df
 
-math_train = load_split("train", difficulty_filter=["Level 5"])
-math_test = load_split("test", difficulty_filter=["Level 5"])
+math_train = load_split("train", difficulty_filter=["Level 4"])
+math_test = load_split("test", difficulty_filter=["Level 4"])
 math_test = math_test.take(range(100)) # Original uses 100 test samples
 
 math_train["extracted_answer"] = math_train["solution"].apply(extract_answer)

@@ -1,0 +1,49 @@
+[
+  {
+    "desc": "iteration_0_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.02,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_0_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.43,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_0_train_data_generation",
+    "use_password": false,
+    "correctness": 0.01875,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "Iter_1 Epoch 1",
+    "epoch": 1,
+    "loss": 1.0357294958084822,
+    "name": "train_epoch_loss"
+  },
+  {
+    "desc": "iteration 1 main train phase",
+    "iteration": 1,
+    "loss": 1.0357294958084822,
+    "name": "iteration_train_loss"
+  },
+  {
+    "desc": "iteration_1_test_no_pwd",
+    "use_password": false,
+    "correctness": 0.0,
+    "overall_temperature": 1,
+    "name": "correctness"
+  },
+  {
+    "desc": "iteration_1_test_with_pwd",
+    "use_password": true,
+    "correctness": 0.51,
+    "overall_temperature": 1,
+    "name": "correctness"
+  }
+]
